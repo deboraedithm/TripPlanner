@@ -1,0 +1,34 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="400dp"
+    android:viewportWidth="400"
+    android:viewportHeight="400">
+
+    <path
+        android:fillColor="#3A1078"
+        android:pathData="M30,0 L370,0 A30,30 0,0 1 400,30 L400,370 A30,30 0,0 1 370,400 L30,400 A30,30 0,0 1 0,370 L0,30 A30,30 0,0 1 30,0 Z" />
+
+    <path
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="4"
+        android:pathData="M 200, 100 A 100,100 0 1,1 199.9,100 Z" />
+
+    <group
+        android:name="plane_group"
+        android:pivotX="200"
+        android:pivotY="200">
+
+        <path
+            android:fillColor="#00F5D4"
+            android:fillAlpha="0.4"
+            android:pathData="M173,108 L213,98 L188,83 L173,108 Z" />
+
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M175,110 L215,100 L190,85 L175,110 Z" />
+
+        <path
+            android:fillColor="#00F5D4"
+            android:pathData="M190,85 L205,98 L190,100 Z" />
+    </group>
+</vector>

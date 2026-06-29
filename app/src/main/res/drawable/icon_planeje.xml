@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Prancheta -->
+    <path
+        android:fillColor="#3A1078"
+        android:pathData="M25,20 L75,20 A5,5 0,0 1 80,25 L80,85 A5,5 0,0 1 75,90 L25,90 A5,5 0,0 1 20,85 L20,25 A5,5 0,0 1 25,20 Z" />
+    <!-- Clipe superior -->
+    <path
+        android:fillColor="#00F5D4"
+        android:pathData="M40,15 L60,15 A3,3 0,0 1 63,18 L63,22 L37,22 L37,18 A3,3 0,0 1 40,15 Z" />
+    <!-- Papel -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30 L70,30 L70,80 L30,80 Z" />
+    <!-- Linhas de checklist -->
+    <path
+        android:strokeColor="#3A1078"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M45,45 L65,45 M45,55 L65,55 M45,65 L55,65" />
+    <!-- Checkmarks -->
+    <path
+        android:strokeColor="#00F5D4"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M35,43 L37,45 L41,41 M35,53 L37,55 L41,51" />
+</vector>
